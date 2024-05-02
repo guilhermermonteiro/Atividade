@@ -1,0 +1,17 @@
+import os
+
+os.system("cls||clear")
+contpares=0
+contimpares=0
+
+
+for i in range(5):
+    numero = int(input("Digite um número: "))
+    
+if  numero %2 ==0:
+    contpares+=1 
+else:
+    contimpares +=1
+
+    print(f"Numeros pares: {contpares}")
+    print(f"Numeros impares: {contimpares}")
